@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			
+		</style>
+		<script type="text/javascript">
+			window.onload=function(){
+				var lis=document.getElementsByTagName("li");
+				for (var i=0;i<lis.length;i++) {
+					if (i%2==0) {
+						li[i].style.backgroundColor="#eeeeee";
+					} else{
+						li[i].style.backgroundColor="#cccccc";
+					}
+					lis[i].onmouseover=function(){
+						this.style.backgroundColor="#AAAAAA";
+					}
+					lis[i].onmouseout=function(){
+						this.style.backgroundColor="";
+					}
+				}
+			}
+		</script>
+	</head>
+	<body>
+	</body>
+</html>

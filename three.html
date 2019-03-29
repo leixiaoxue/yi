@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			
+		</style>
+		<script type="text/javascript">
+//			window.onload=function(){
+//				var btns=document.getElementsByTagNameNS("button");
+//				var inputs=document.getElementsByTagNameNS("input");
+//				btns[0].onclick=function(){
+//					for(var i=0;i<inputs.length;i++){
+//						inputs[i].checked=true;
+//					}
+//				}
+//				btns[1].onclick=function(){
+//					for(var i=0;i<inputs.length;i++){
+//						if(inputs[i].checked==true){
+//							inputs[i].checked=false;
+//						}else{
+//							inputs[i].checked=true;
+//						}
+//					}
+//				}
+//				btns[2].onclick=function(){
+//					for(var i=0;i<inputs.length;i++){
+//						inputs[i].checked=false;
+//					}
+//				}
+//			}
+			window.onload=function(){
+				var btns=document.getElementsByTagName("button");
+				var inputs=document.getElementsByTagNameNS("input");
+				for (var i=0;i<inputs.length;i++) {
+					inputs[0].checked=true;
+				}
+				for (var i=0;i<inputs.length;i++) {
+					if(inputs[0].checked==true){
+						inputs[i].checked=false;
+					}else{
+						inputs[i].checked=true;
+					}
+				}
+				for (var i=0;i<inputs.length;i++) {
+					inputs[0].checked=false;
+				}
+			}
+		</script>
+	</head>
+	<body>
+	</body>
+</html>
